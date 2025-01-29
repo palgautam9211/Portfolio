@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gautam's Portfolio</title>
+    <!---Link to external CSS-->
+    <link rel="stylesheet" href="style.css" />
+    <!---link to Google fonts-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!--Box icon link-->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+   <!-- Load Typed.js -->
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    var typed = new Typed("#element", {
+      strings: ["Python Developer", "Power BI Expert", "Software Engineer"],
+      typeSpeed: 50,
+      loop: true
+    });
+  });
+</script>
+
+    <script type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>   
+ <script type="text/javascript">
+      emailjs.init('BibwOmKBwrajaowxW');
+    </script>
+      <script src="script.js"> </script>
+  </head>
+  <body>
+    <!---Header Section-->
+    <header>
+      <a href="#" class="logo">Port<span>Folio</span></a>
+      <ul class="navbar">
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#service">Services</a></li>
+        <li><a href="#project">Project</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+
+    <!--Home Section -->
+    <section class="home" id="home">
+      <div class="home-grid">
+        <div class="home-info">
+          <h3>Hello, My name is</h3>
+          <h1>Gautam Pal</h1>
+          <h2>I'm a <span id="element"></span></h2>
+          <a href="assets/resume.pdf" class="btn" download>Download CV</a>
+        </div>
+
+        <div class="home-img">
+          <img src="home-img.png" alt="home image" />
+        </div>
+      </div>
+    </section>
+
+    <!--About Section-->
+    <section class="about" id="about">
+      <div class="about-grid">
+        <div class="about-img"><img src="home-img.png" alt="" /></div>
+        <div class="about-detail">
+          <h3>About <span>Me</span></h3>
+          <h4>Software Developer</h4>
+          <p>
+            I am a Software Engineer with expertise in 
+          <b>Python</b> Language.<br>
+          I have completed my Graduation in <b>BscIT</b> 
+          from <b>Vivek College of Commerce.</b> <br>
+          Hands-on experiences of <b>Java</b> and <b>C++</b> for Programming
+          and Development.<br>
+          Knowledge of <b>Power BI</b> for Data-Analysis and <b>Git</b> for
+          Version control.<br>
+          I am Familiar with <b>MySQL</b> and <b>DSA</b> for Problem-Solving.
+          </p>
+
+          <a href="assets/resume.pdf" class="btn" download>Download CV</a>
+        </div>
+      </div>
+    </section>
+
+    <!--Service-->
+
+    <section class="service" id="service">
+      <div class="service-title">
+        <h2>My <span>Services</span></h2>
+      </div>
+
+      <div class="service-grid">
+        <div class="service-bx">
+          <div class="service-icon">
+            <i class="bx bx-code-alt"></i>
+          </div>
+          <div class="service-detail">
+            <h3>Python</h3>
+            <p>
+                I specialize in Python programming to create efficient, scalable, <br>
+                and robust solutions tailored to your needs. Whether it's building tools,<br>
+                 scripts, or end-to-end applications, I ensure code clarity, functionality,<br>
+                  and seamless user experience.
+            </p>
+            <div class="middle">
+              <a href="#" class="btn">Read More</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="service-bx">
+          <div class="service-icon">
+            <i class="bx bx-code-alt"></i>
+          </div>
+          <div class="service-detail">
+            <h3>Java</h3>
+            <p>
+                provide Java-based solutions for building reliable and efficient 
+                applications. Whether it's backend development, desktop applications, 
+                or scalable enterprise systems, I deliver clean, maintainable code to 
+                meet your project requirements.
+            </p>
+            <div class="middle">
+              <a href="#" class="btn">Read More</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="service-bx">
+          <div class="service-icon">
+            <i class="bx bx-code-alt"></i>
+          </div>
+          <div class="service-detail">
+            <h3>MySQL</h3>
+            <p>
+                I specialize in designing, optimizing, and managing MySQL databases to
+                 ensure data integrity and performance. With a focus on schema design, query 
+                 optimization, and database scalability.
+            </p>
+            <div class="middle">
+              <a href="#" class="btn">Read More</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="service-bx">
+            <div class="service-icon">
+              <i class="bx bx-code-alt"></i>
+            </div>
+            <div class="service-detail">
+              <h3>Power BI</h3>
+              <p>
+                I provide comprehensive Power BI solutions for data visualization and business
+                 intelligence. By transforming raw data into insightful dashboards and reports, 
+                 I help organizations make data-driven decisions. 
+              </p>
+              <div class="middle">
+                <a href="#" class="btn">Read More</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="service-bx">
+            <div class="service-icon">
+              <i class="bx bx-code-alt"></i>
+            </div>
+            <div class="service-detail">
+              <h3>Git and GitHub</h3>
+              <p>
+                Expertise in version control using Git and collaborative development through GitHub.
+                 My services include repository management, branching strategies, and code reviews to
+                  enhance team collaboration and maintain code integrity.
+              </p>
+              <div class="middle">
+                <a href="#" class="btn">Read More</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="service-bx">
+            <div class="service-icon">
+              <i class="bx bx-code-alt"></i>
+            </div>
+            <div class="service-detail">
+              <h3>Flask</h3>
+              <p>
+                I provide intermediate-level Flask development services for building dynamic web applications
+                 and APIs. With a focus on creating scalable and maintainable solutions, I utilize Flask's 
+                 lightweight framework to implement features such as user authentication, database integration,
+                  and RESTful services.
+              </p>
+              <div class="middle">
+                <a href="#" class="btn">Read More</a>
+
+              </div>
+            </div>
+          </div>
+
+
+      </div>
+    </section>
+
+    <!--Project-->
+
+    <section class="project" id="project">
+      <div class="project-heading">My <span>Project</span></div>
+      <div class="project-grid">
+        <div class="pro pro-1">
+          <div class="project-left">
+            <img src="p1.jpg" alt="" />
+          </div>
+          <div class="project-right">
+            <h2>Lane and Pothole Detection System for Autonomous Vehicles</h2>
+            <p>
+                ➤ Developed the System that contributes to the advancement of Autonomous Driving 
+                Technology by ensuring vehicles can safely and effectively navigate complex road 
+                environments.<br>
+                ➤ Implement the System by using Python Language, OpenCV (Machine Learning Library) - 
+                For Lane Detection, YOLO Model (Deep Learning) – For Pothole Detection.
+            </p>
+            <div class="middle">
+              <a href="https://github.com/palgautam9211/Lane-Detection-for-Autonomous_Vehicles" class="btn2"
+                >Link<i class="bx bx-link-external"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="pro pro-1 reversed-proj">
+          <div class="project-left">
+            <img src="p2.jpg" alt="" />
+          </div>
+          <div class="project-right">
+            <h2>Dungeon Crawler</h2>
+            <p>
+                ➤ A 2D Game “Dungeon Crawler” built with Pygame. In which player Navigate a randomly 
+            Generated walls filled with enemies and aiming to Survive for as long as possible.<br>
+            ➤ Implement the Game by using Python language, PyGame library and Object-Oriented 
+            Programming concepts
+            </p>
+            <div class="middle">
+              <a href="https://github.com/palgautam9211/Dungeon_Crawler_Game" class="btn2"
+                >Link<i class="bx bx-link-external"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+
+    
+      </div>
+    </section>
+
+    <!--Contact-->
+
+  <!-- Contact Section -->
+<section class="contact-form" id="contact">
+  <div class="contact-bx">
+    <div class="contact-heading">
+      <h2>Contact <span>Us</span></h2>
+    </div>
+    <form id="contact-form"> 
+      <input type="text" id="name" placeholder="Name" required />
+      <input type="email" id="email" placeholder="Email" required />
+      <input type="text" id="number" placeholder="Number" required />
+      <textarea id="message" placeholder="Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>    
+  </div>
+</section>
+
+<!-- Toast Notification -->
+<div id="toast" class="toast">Your message has been sent successfully!</div>
+
+    <!--Footer-->
+
+    <footer>
+      <div class="container">
+        <div class="left">
+          <h4>&copy;2025 Copyright by Gautam. All Rights are Reserved.</h4>
+        </div>
+        <div class="right grid-col-span">
+          <a href="https://github.com/palgautam9211"><i class="bx bxl-github"></i></a>
+          <a href="https://www.linkedin.com/in/palgautam9211?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="bx bxl-linkedin-square"></i></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
